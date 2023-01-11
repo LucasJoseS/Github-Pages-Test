@@ -1,3 +1,18 @@
-<a href="/">Home</a>
-<a href="/about">About</a>
-<a href="blog">Blog</a>
+---
+import '../styles/global.css'
+
+const pageTitle = "Home";
+---
+
+<html lang="en">
+  <head>
+    <meta charset ="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{ pageTitle }</title>
+  </head>
+  <body>
+    <a href="/">{ pageTitle }</a>
+    <a href="/about">About</a>
+    <a href="blog">Blog</a>
+  </body>
+</html>
